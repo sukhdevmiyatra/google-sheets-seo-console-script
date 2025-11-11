@@ -1,4 +1,4 @@
-# Google Sheets Search Console SEO APP Script
+# Google Sheets Search Console SEO Apps Script
 
 A Google Apps Script that connects Google Sheets with the Google Search Console API to fetch SEO data and run quick analyses automatically.
 
