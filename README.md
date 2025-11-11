@@ -20,3 +20,8 @@ A Google Apps Script that connects Google Sheets with the Google Search Console 
 3. Deploy as Web App (for OAuth)
 4. Enter OAuth credentials in the sheet
 5. Fetch data and view the analysis
+
+<p align="center">
+  <img src="Setting-page.png" alt="Settings Page" width="48%">
+  <img src="CTR-page.png" alt="CTR Page" width="48%">
+</p>
