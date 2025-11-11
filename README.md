@@ -114,4 +114,20 @@ If successful, the script can now fetch Search Console data securely.
 | Access blocked error | Consent screen not verified or user not added as Test User | Add your email under Test Users in the Consent Screen |
 | API not enabled | Search Console API was not turned on | Go to API Library and enable it manually |
 
+## Adding the OAuth2 Library in Apps Script
+
+To manage OAuth tokens securely and handle authorization flows, this project uses the official **Apps Script OAuth2 Library** by Google.
+
+### How to Add the Library
+1. In your Apps Script editor, click **+ Libraries**.
+2. Paste the following Script ID: 1B7d6s5Q_cJhY0HhFv4E4XU6ZTzV_Lo5t8A0b6-DcKzYf9cU3F9xgVfR0
+3. Click **Add** and choose the latest version.
+4. Click **Save**.
+
+### Library Reference
+- GitHub: [https://github.com/googleworkspace/apps-script-oauth2](https://github.com/googleworkspace/apps-script-oauth2)
+- Documentation: [OAuth2 Library for Google Apps Script](https://developers.google.com/apps-script/guides/services/external#oauth_2)
+
+This library simplifies the entire OAuth flow, automatically storing tokens securely in Script Properties and refreshing them as needed.
+
 Once everything is configured, your Google Apps Script can securely connect to the Search Console API, fetch data, and run automated analyses directly inside Google Sheets.
