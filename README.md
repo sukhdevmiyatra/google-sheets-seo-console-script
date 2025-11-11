@@ -26,11 +26,12 @@ A Google Apps Script that connects Google Sheets with the Google Search Console 
 4. Enter OAuth credentials in the sheet
 5. Fetch data and view the analysis
 
-## Enable OAuth 2.0 for Google Search Console API
+## How to Enable OAuth 2.0 for Google Search Console API
 
 ### 1. Go to Google Cloud Console
 Open [https://console.cloud.google.com/](https://console.cloud.google.com/)  
-Sign in with the same Google account used for your Google Sheet.
+
+If this is your first time using it, sign in with the same Google account you use for your Google Sheet.
 
 ### 2. Create a New Project
 1. Click the **Project Selector** at the top.
@@ -38,7 +39,7 @@ Sign in with the same Google account used for your Google Sheet.
 3. Name it something like **Search Console Sheets Integration**.
 4. Click **Create**, then wait a few seconds.
 5. Make sure the new project is selected in the top bar.
-6. 
+   
 ### 3. Enable the Search Console API
 1. In the left sidebar, go to **APIs & Services → Library**.
 2. Search for **Search Console API**.
